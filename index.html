@@ -151,14 +151,14 @@
                     }
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/6.1.loader.js'
+                    unityLoader.src = 'Build/6.2.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/6.1.data.unityweb',
-                                frameworkUrl: 'Build/6.1.framework.js.unityweb',
-                                codeUrl: 'Build/6.1.wasm.unityweb',
+                                dataUrl: 'Build/6.2.data.unityweb',
+                                frameworkUrl: 'Build/6.2.framework.js.unityweb',
+                                codeUrl: 'Build/6.2.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'Ava',
                                 productName: 'bazzzza',
